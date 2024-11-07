@@ -1,0 +1,252 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing :border-box;
+    font-family: Helvetica;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-image: url('assets/foto/background-1.jpg');
+    color: #eaeaea;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    margin-right: auto;
+    display: flex;
+}
+.logo-img {
+    width: 50px;
+    height: 40px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.logo-title {
+    padding: 10px;
+    cursor: pointer;
+    transition: all .5s ease 0s;
+}
+
+
+.logo:hover {
+    color: #E3A039;
+}
+
+.btn-cta {
+    margin-right: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 6px 12px;
+    border-radius:8px ;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    padding: 10px;
+    margin-right: 20px;
+    
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+li a {
+    transition: all .5s ease 0s;
+}
+
+li a:hover {
+    color: #E3A039;
+    border-radius: 10px;
+    
+}
+
+a {
+    color: #eaeaea;
+    text-decoration: none;
+}
+
+
+.container {
+    background-image: url(assets/foto/marble-2.jpg);
+    max-width: 2000px ;
+    margin: 0 auto;
+    padding: 10px 0;
+    height: 89vh;
+}
+
+.intro {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #000000;
+}
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vh;
+    margin: 0 auto;
+}
+.title-kedua {
+    font-size: 30px;
+    font-weight: bold;
+}
+.font {
+    color: #E3A039;
+    font-weight: bolder;
+    
+}
+
+.title-kedua:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*transform: rotate(15deg);*/
+    transform: scale(1.5);
+    color: #E3A039;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease 0s;
+}
+
+.container-kedua {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.card-item-kedua {
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    color: #eaeaea;
+}
+
+.card-title-kesatu {
+    font-size: 18px;
+    margin-top: 50px;
+    font-weight: bolder;
+
+}
+.card-description-kesatu {
+    font-size: 18px;
+    margin-top: 4px;
+    font-weight: bolder;
+}
+
+
+.card-description-kedua {
+    font-size: 15px;
+    margin-top: 10px;
+}
+.foto-muka {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.foto-muka:hover {
+    transform: scale(1.2);
+    cursor: pointer ;
+    transition: all .5s ease 0s;
+    
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.title-2 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #0a0a0a;
+}
+
+.icon-kedua {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 4px;
+}
+
+.img-content-1 {
+    width: 35px;
+    height: 35px;
+    gap: 50px;
+}
+.img-content-2 {
+    width: 35px;
+    height: 35px;
+    gap: 50px;
+    margin-left: 15px;
+}
+.img-content-3 {
+    width: 35px;
+    height: 35px;
+    gap: 50px;
+    margin-left: 15px;
+}
+
+@media (max-width: 1600px) {
+    #konsultasiheaderlain {
+        display: none;
+}
+}
+
+.pernik {
+    display: block;
+    float: left;
+    padding: 15px 0px 5px 0px;
+}
+a {
+    background-color: transparent;
+}
+
+.h6 {
+    color:#E3A039;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #222;
+    color: #FFFFFF;
+}
+
+
